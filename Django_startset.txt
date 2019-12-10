@@ -6,5 +6,10 @@ python manage.py runserver <- 서버실행
 
 python manage.py createsuperuser < - 관리자 아이디 생성
 
+python manage.py startapp hello <- helloapp 파일 생성
 
-t
+views.py 에 값넣기
+
+
+웹브라우져에서 요청 -> config url 에서 urlpatterns 에서 패턴 확인
+-> hello.url 에서 페턴 확인 후 뷰단 응답
